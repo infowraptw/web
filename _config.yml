@@ -13,16 +13,14 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
+title: 勁智數位科技
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
-minimal_mistakes_skin: default
-search: true
+  HPC/Proxmox/AI
+#twitter_username: username
+#github_username: username
+minimal_mistakes_skin: aqua
+search: false
 
 # Build settings
 markdown: kramdown
@@ -58,7 +56,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Infowrap"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
@@ -77,15 +75,15 @@ author:
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - label: "高雄市鼓山區裕誠路2062號"
+      icon: "fas fa-fw fa-map-marker-alt"
+      url: "https://maps.app.goo.gl/93yHyMXRke3XUe6ZA"
+    - label: "07-5228611"
+      icon: "fab fa-fw fa-phone"
+      url: "tel:075228611"
+    - label: "infowrap@infowrap.com.tw"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:infowrap@infowrap.com.tw"
 
 defaults:
   # _posts
@@ -105,7 +103,9 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      sidebar:
+        nav: "menu"
 
 category_archive:
   type: liquid
@@ -113,3 +113,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+host: 0.0.0.0
+port: 4001

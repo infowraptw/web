@@ -1,0 +1,77 @@
+---
+# 這裡一定要有這兩行破折號，Jekyll 才會處理這個檔案
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; 
+@import "minimal-mistakes";
+
+/* 你的自定義樣式寫在下面，絕對不會弄亂主題檔案 */
+.site-title {
+  color: #da73e6 !important;
+  font-size: 1.8rem
+}
+
+/* 專門針對左側選單 (Sidebar) 的字體調整 */
+.sidebar {
+  /* 1. 調整整體側邊欄字體大小 */
+  font-size: 1.6rem; 
+
+  /* 2. 針對導覽列選單的每一項 (連結文字) */
+  .nav__items {
+    font-size: 1.4rem; // 具體項目的字體
+    
+    li {
+      margin-bottom: 0.5em; // 增加項目之間的間距，看起來不擁擠
+      
+      a {
+        color: #333; // 也可以在這裡順便改顏色
+        
+        &:hover {
+          text-decoration: underline; // 增加滑鼠移上去的效果
+          color: #0056b3; 
+        }
+      }
+    }
+  }
+
+  /* 3. 針對選單上方的大標題 (如：營業項目) */
+  .nav__title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #000;
+    border-bottom: 2px solid #eee; // 加上底線區隔
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+  }
+}
+
+/* 將手機版 Toggle Menu 改為三橫線圖示 */
+.nav_list .nav__title {
+  position: relative;
+  font-size: 0;           /* 隱藏原本的 "Toggle menu" 文字 */
+  padding: 15px;
+  min-height: 44px;
+
+  &::before {
+    content: "\f0c9";     /* Font Awesome 的三橫線圖示編碼 */
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 24px;      /* 圖示大小 */
+    color: inherit;
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+/* 隱藏原本右側的 + 號圖示 */
+.nav_list .nav__title .icon-plus {
+  display: none !important;
+}
+
+/* 展開後的行為（選填：如果想讓三橫線變 X） */
+.nav_list.active .nav__title::before {
+  content: "\f00d";      /* Font Awesome 的 X 圖示編碼 */
+}
+

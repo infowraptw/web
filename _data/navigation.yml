@@ -1,9 +1,11 @@
-main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
-  - title: "About"
+menu:
+  - title: "關於勁智"
     url: /about/
+  - title: "勁智榮耀"
+    url: /honor/
+  - title: "HPC"
+    url: /HPC/
+  - title: "Proxmox"
+    url: /Proxmox/
+  - title: "AI"
+    url: /AI/

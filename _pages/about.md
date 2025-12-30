@@ -1,8 +1,26 @@
 ---
+layout: single
+classes: wide
 permalink: /about/
-title: "About"
+title: "關於勁智"
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+勁智數位科技股份有限公司創立於2001年1月1日，總公司設立在高雄市，台北設有辦事處。本公司致力於開發雲端運算電腦產品及其系統整合技術，並提供雲端運算相關之技術諮詢與產品服務。
+除了叢集式超級電腦 (HyperCluster) 銷售之外，勁智數位同時亦為雲端運算相關產品之台灣地區總代理，目前所提供之產品服務包括：
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+1.雲端運算IaaS: Myrinet 10Gbps、Voltaire 40Gbps超高速大型網路設備、虛擬主機管理軟體:ScaleMP超大型虛擬主機系統軟體
+
+2.雲端運算PaaS: 資源管理軟體:PBS Pro佇列管理軟體、Cluster Resource格網運算系統管理軟體、雲端運算整體解決方案:Infowrap HyperCluster主機系統、私有雲(private Cloud)運算解決方案:Infowrap Infolink主機系統
+
+3.雲端運算SaaS: 雲端運算服務軟體:Infowrap CRM(Cloud Resource Management)
+
+專長領域
+高效能計算平台之提供，平行作業系統與應用程式之整合。 平行化高速計算方法之研究，高可用度與負載平衡服務之叢集電腦規劃與建置。
+
+現有建置HyperCluster的客戶
+
+教育單位：台灣大學、清華大學、交通大學、中正大學、中央大學、中山大學、 成功大學、東華大學、台灣師範大學、彰化師範大學、花蓮師範學院、台灣技術學院、逢甲大學、中原大學、台北科技大學、景文技術學院、高雄海洋技術學院、中華大學、吳鳳技術學院、高雄第一科技大學、 高雄應用科技大學、Osaka Prefecture University ……。
+
+政府單位及業界：國家高速網路及計算中心、中央研究院、國科會同步輻射中心、中央氣象局、中山科學院、工業技術研究院、核能研究所、台灣動物科技研究所、台灣電力公司、海軍、中華汽車、碧悠國際光電 ……。
+
+共計超過90個單位。
