@@ -14,7 +14,5 @@ menu:
         url: /ai-platform-deployment/
       - title: "AI邊緣應用"
         url: /ai-edge/
-      - title: "AI-edge2"
-        url: /ai-edge2/
   - title: "Infra"
     url: /Infra/

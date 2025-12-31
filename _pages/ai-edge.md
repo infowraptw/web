@@ -1,6 +1,6 @@
 ---
 title: "AI 邊緣應用"
-permalink: "ai-edge"
+permalink: /ai-edge/
 ---
 ### AI 邊緣應用：解決工業現場的最後一哩路 ###
 
