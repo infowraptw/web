@@ -75,3 +75,40 @@
   content: "\f00d";      /* Font Awesome 的 X 圖示編碼 */
 }
 
+
+/* 縮小主項目與子項目之間的間距 */
+.sidebar .nav__sub-menu {
+  margin-top: -5px !important;    /* 讓整個子選單往上提，靠近主項目 */
+  margin-bottom: 10px !important; /* 保留一點點下邊距，避免跟下一個主項目太近 */
+}
+
+/* 縮小每個子項目之間的上下間距 */
+.sidebar li li {
+  padding-top: 2px !important;    /* 縮小上內邊距 */
+  padding-bottom: 2px !important; /* 縮小下內邊距 */
+  line-height: 1.2 !important;    /* 縮小行高 */
+}
+
+/* 針對子項目的連結文字調整 */
+.sidebar li li a {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding: 2px 0 !important;      /* 確保點擊區域不會太大，讓項目看起來更緊湊 */
+}
+
+/* 強制針對所有側邊欄內的清單進行內縮 */
+nav.nav__list ul li ul {
+
+    margin-left: 10px !important;
+    padding-left: 5px !important;
+}
+
+nav.nav__list ul li ul li a {
+    font-size: 0.9em !important;
+    color: #666 !important; /* 暫時改個顏色確認有沒有抓到 */
+}
+/* 當前選中的子項目加粗或變色 */
+.sidebar .nav__sub-menu .active {
+  font-weight: bold !important;
+  color: #004d40 !important; /* 配合 aqua 皮膚的深色 */
+}

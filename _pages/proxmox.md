@@ -1,6 +1,6 @@
 ---
-permalink: /Proxmox/
 title: "Proxmox"
+permalink: /Proxmox/
 ---
 
 ### Proxmox VE 企業虛擬化解決方案 ###
@@ -55,7 +55,7 @@ title: "Proxmox"
 - **系統建置：** 根據現有或新採購設備，提供最佳化的 PVE 部署規劃與配置建議 。
 
 
-- **系統移轉：** 協助將舊有的實體機或虛擬機 (VM) 穩定移轉至新的 PVE 平台 。
+- **系統移轉：** 協助將舊有的實體機或其它虛擬平台(VMware / Nutanix / Openstack)的VM穩定移轉至 PVE 平台 。
 
 
 - **維運管理與監看：** 系統自動化監控與異常即時通知，確保虛擬機 24/7 正常運作 。
